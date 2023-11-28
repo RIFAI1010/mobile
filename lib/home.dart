@@ -72,6 +72,19 @@ class _homeState extends State<home> {
                         price: 'Rp 10.000,00'),
                   ],
                 ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    MyCardChild(
+                        image: 'images/burger.jpeg',
+                        title: 'Burger King',
+                        price: 'Rp 30.000,00'),
+                    MyCardChild(
+                        image: 'images/soda.jpeg',
+                        title: 'Soda',
+                        price: 'Rp 10.000,00'),
+                  ],
+                ),
               ],
             ),
           ),
